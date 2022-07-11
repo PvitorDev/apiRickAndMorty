@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    outline: none;
+}
+
+header {
+    background-color: #253939;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.center {
+    display: inline-block;
+    margin: 10px 0 0 35px;
+}
+
+.pagination ul {
+    display: flex;
+    background: #253939;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+.pagination ul li {
+    list-style: none;
+    display: flex;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+   margin-left: 20px;
+   margin-right: 20px;
+   cursor: pointer;
+
+}
+
+
+
+.pagination ul li .numb {
+    height: 25px;
+    width: 45px;
+
+
+}
+.pagination ul li .dots {
+   font-size: 22px;
+   cursor: none;
+
+}
+.pagination  span {
+   margin: auto;
+ }
+
+.pagination ul li .btn {
+    padding: 0 20px;
+}
+
+.pagination ul li .prev {
+    border-radius: 25px 5px 5px 25px;
+}
+
+.pagination ul li .next {
+    border-radius: 5px 25px 25px 5px;
+}
+
+.pagination ul li.active,
+.pagination ul li.numb:hover,
+.pagination ul li.btn:hover {
+    color: rgb(18, 198, 18);
+}
